@@ -1,0 +1,34 @@
+{
+  "name": "strapi-plugin-csv-export",
+  "version": "0.0.1",
+  "description": "Export data to CSV",
+  "strapi": {
+    "name": "CSV-export",
+    "icon": "file-csv",
+    "description": "Description of csv-export plugin."
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "pluralize": "^8.0.0",
+    "react-csv": "^2.0.3",
+    "strapi-helper-plugin": "^3.4.5",
+    "styled-components": "^5.2.1"
+  },
+  "author": {
+    "name": "Lázaro Dutra",
+    "email": "dutralazaro@gmail.com",
+    "url": "https://github.com/SrLazar0"
+  },
+  "maintainers": [
+    {
+      "name": "Lázaro Dutra",
+      "email": "dutralazaro@gmail.com",
+      "url": "https://github.com/SrLazar0"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
